@@ -38,6 +38,22 @@ Using a multi-source IBM Cognos telecom dataset (~7,000 customers, 7 merged tabl
 | Brier Score | 0.158 |
 | **Top-Decile Lift** | **2.91×** |
 
+### ROC Curve
+
+![ROC Curve](images/final_report/best_model_roc_curve.png)
+
+### Feature Importance
+
+![Top 15 Features](images/final_report/best_model_top_features.png)
+
+### Prediction Probability Distribution
+
+![Probability Distribution](images/final_report/best_model_pred_prob_dist.png)
+
+### Confusion Matrix
+
+![Confusion Matrix](images/final_report/best_model_conf_matrix.png)
+
 ### Customer Segmentation
 
 | Segment | Size | Median Tenure | Churn Risk | Profile |
@@ -59,7 +75,6 @@ Silhouette score improved from **0.129 → 0.638** (+393%) after behavioral feat
 | Clustering | K-Means · Agglomerative (Ward) · GMM |
 | Dimensionality Reduction | PCA (8 components, 95% variance explained) |
 | Evaluation | ROC-AUC · PR-AUC · Balanced Accuracy · MCC · Top-Decile Lift · Brier Score |
-| Statistical Testing | Kruskal-Wallis H-test |
 | Data Processing | Pandas · NumPy · Scikit-Learn |
 | Visualization | Matplotlib · Seaborn |
 
