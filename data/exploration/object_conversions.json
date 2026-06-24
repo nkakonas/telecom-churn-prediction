@@ -1,0 +1,125 @@
+{
+  "binary": {
+    "gender": {
+      "female": 0,
+      "male": 1
+    },
+    "senior_citizen": {
+      "no": 0,
+      "yes": 1
+    },
+    "partner": {
+      "no": 0,
+      "yes": 1
+    },
+    "dependents": {
+      "no": 0,
+      "yes": 1
+    },
+    "phone_service": {
+      "no": 0,
+      "yes": 1
+    },
+    "paperless_billing": {
+      "no": 0,
+      "yes": 1
+    },
+    "churn_label": {
+      "no": 0,
+      "yes": 1
+    }
+  },
+  "low_cardinality_cols": [
+    {
+      "column": "multiple_lines",
+      "cardinality": 3,
+      "values": [
+        "no",
+        "no phone service",
+        "yes"
+      ]
+    },
+    {
+      "column": "internet_service",
+      "cardinality": 3,
+      "values": [
+        "dsl",
+        "fiber optic",
+        "no"
+      ]
+    },
+    {
+      "column": "online_security",
+      "cardinality": 3,
+      "values": [
+        "no",
+        "no internet service",
+        "yes"
+      ]
+    },
+    {
+      "column": "online_backup",
+      "cardinality": 3,
+      "values": [
+        "no",
+        "no internet service",
+        "yes"
+      ]
+    },
+    {
+      "column": "device_protection",
+      "cardinality": 3,
+      "values": [
+        "no",
+        "no internet service",
+        "yes"
+      ]
+    },
+    {
+      "column": "tech_support",
+      "cardinality": 3,
+      "values": [
+        "no",
+        "no internet service",
+        "yes"
+      ]
+    },
+    {
+      "column": "streaming_tv",
+      "cardinality": 3,
+      "values": [
+        "no",
+        "no internet service",
+        "yes"
+      ]
+    },
+    {
+      "column": "streaming_movies",
+      "cardinality": 3,
+      "values": [
+        "no",
+        "no internet service",
+        "yes"
+      ]
+    },
+    {
+      "column": "contract",
+      "cardinality": 3,
+      "values": [
+        "month-to-month",
+        "one year",
+        "two year"
+      ]
+    },
+    {
+      "column": "payment_method",
+      "cardinality": 4,
+      "values": [
+        "bank transfer (automatic)",
+        "credit card (automatic)",
+        "electronic check",
+        "mailed check"
+      ]
+    }
+  ]
+}
