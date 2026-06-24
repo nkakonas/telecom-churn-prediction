@@ -1,4 +1,4 @@
-# ML_project_group_16.github.io
+# Telecom Churn Prediction
 
 The members of Group 16 are: 
 - Andrew Park
